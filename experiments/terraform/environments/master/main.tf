@@ -87,7 +87,7 @@ resource "google_dataproc_cluster" "mydataproc" {
     }
 
     gce_cluster_config {
-      tags = ["foo", "bar"]
+      tags = ["big", "data"]
       service_account_scopes = [
         "https://www.googleapis.com/auth/monitoring",
         "useraccounts-ro",
